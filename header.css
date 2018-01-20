@@ -1,0 +1,29 @@
+@import 'colors.css';
+
+header {
+	padding: 1em;
+	color: var(--grayFont);
+	background-color: var(--kstatePurple);
+	clear: left;
+	text-align: center;
+	margin: 8px;
+	height: 30px
+}
+
+main-nav {
+	float: right;
+}
+
+button {
+	background-color: #48026b;
+	color: var(--backGray);
+	border: 0px;
+	padding: 0.75em;
+	margin-right: 10px;
+	margin-top: 0px;
+	border-radius: 30%;
+}
+
+button:hover {
+	background-color: #792aa1;
+}
