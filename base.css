@@ -2,7 +2,12 @@
 
 html {
 	margin: 0px;
-	background-color: var(--backGray);
+	/*background-color: var(--backGray);*/
+	background-image: url('images/gray_honeycomb.jpg');
+	background-size: 100%;
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
+	/*background: url(images/checkers.jpg) center center fixed;*/
 }
 
 body {
