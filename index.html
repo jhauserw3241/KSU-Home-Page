@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			function goProjects() {
+				document.location.href = "projects.html";
+			}
+			function goAbout() {
+				document.location.href = "about.html";
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<title>Homepage</title>
+	</head>
+
+
+	<body>
+		<div class="container">
+
+			<header>
+				<logo>
+					<a href="index.html"><h1>Joy Hauser</h1></a>
+				</logo>
+				<main-nav>
+					<button type="button" onclick="goProjects()">Projects</button>
+					<button type="button" onclick="goAbout()">About</button>
+				</main-nav>
+			</header>
+
+			<article>
+				<img src="images/joy_prof_headshot.jpg" alt="Joy Headshot" class="img_floatright" width="200" height="300">
+				
+				
+				Hello!<br><br>
+				My name is Joy Hauser! I am currently a junior in the computer science department at Kansas State University.<br><br>
+				
+				To find out more about projects I have worked on or have been working on, go the Projects page.<br><br>	
+				To find out more about what I'm affiliated with, go the About page.<br><br>
+			</article>
+
+			<footer>
+				<footerText>
+					This website was adapted from<br>
+					Russel Feldhausen's people page.
+				</footerText>
+
+				<footerIcons>
+					<a class="social-icons" href="http://cs.ksu.edu" title="KSU Computer Science" alt="KSU CS Icon"><img src="images/ksucis.png"></a>
+					<a class="social-icons" href="http://github.com" title="Github"><img src="images/github.png"></a>
+					<a class="social-icons" href="https://www.linkedin.com/in/joy-hauser-865763125?authType=NAME_SEARCH&authToken=11_g&locale=en_US&srchid=5184478851479531859373&srchindex=1&srchtotal=9&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A5184478851479531859373%2CVSRPtargetId%3A518447885%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" title="LinkedIn"><img src="images/linkedin.png"></a>
+				</footerIcons>
+			</footer>
+		</div>
+	</body>
+</html>
