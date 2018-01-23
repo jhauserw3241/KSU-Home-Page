@@ -4,7 +4,7 @@ html {
 	margin: 0px;
 	/*background-color: var(--backGray);*/
 	/*background-image: url('images/white-vines.jpg');*/
-	background-image: url('images/green-circles.jpg');
+	background-image: url('images/blue-crumps.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -20,7 +20,7 @@ div.container {
 logo h1 {
 	float: left;
 	margin: 0px;
-	color: var(--grayFont);
+	color: var(--footerFontColor);
 }
 
 .img_floatright {
