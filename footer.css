@@ -2,8 +2,8 @@
 
 footer {
 	padding: 1em;
-	color: var(--grayFont);
-	background-color: var(--kstatePurple);
+	color: var(--footerFontColor);
+	background-color: var(--headerFooterBackColor);
 	clear: left;
 	text-align: center;
 	bottom: 0;
@@ -26,7 +26,7 @@ footerIcons {
 logo h1 {
 	float: left;
 	margin: 0px;
-	color: var(--grayFont);
+	color: var(--footerFontColor);
 }
 
 .img_floatright {

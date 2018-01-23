@@ -3,11 +3,10 @@
 html {
 	margin: 0px;
 	/*background-color: var(--backGray);*/
-	background-image: url('images/gray_honeycomb.jpg');
-	background-size: 100%;
-	/*background-repeat: no-repeat;
-	background-size: cover;*/
-	/*background: url(images/checkers.jpg) center center fixed;*/
+	/*background-image: url('images/white-vines.jpg');*/
+	background-image: url('images/green-circles.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body {
@@ -37,7 +36,7 @@ article {
 	margin-bottom: 8px;
 	padding: 1em;
 	overflow: hidden;
-	background-color: var(--backPurple);
+	background-color: var(--bodyBackColor);
 	border-radius: 30% 30% 30% 30% / 12px 12px 12px 12px;
 	box-shadow: 10px 10px 5px #888888;
 }
