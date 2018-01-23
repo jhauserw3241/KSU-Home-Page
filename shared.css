@@ -1,4 +1,5 @@
 :root {
+	--headerFooterHeight: 100px;
 	--headerFooterBackColor: #595C5E;
 	--headerFontColor: #cbc8c8;
 	--bodyBackColor: #E8EEF2;

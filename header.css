@@ -1,20 +1,30 @@
-@import 'colors.css';
+@import 'shared.css';
 
-header {
-	padding: 1em;
+.header {
 	color: var(--headerFontColor);
 	background-color: var(--headerFooterBackColor);
-	clear: left;
-	text-align: center;
-	margin: 8px;
-	height: 30px
+	height: var(--headerFooterHeight);
+	padding: 1em;
+	font-size: 1.25em;
 }
 
-main-nav {
+/*.header p {
+	font-size: 2em;
+}*/
+
+.nav-link {
+	color: var(--headerFontColor);
+}
+
+.nav-link:hover {
+	background-color: #4D5051;
+}
+
+/*main-nav {
 	float: right;
-}
+}*/
 
-button {
+/*button {
 	background-color: #4D5051;
 	color: var(--headerFontColor);
 	border: 0px;
@@ -22,8 +32,4 @@ button {
 	margin-right: 10px;
 	margin-top: 0px;
 	border-radius: 30%;
-}
-
-button:hover {
-	background-color: #792aa1;
-}
+}*/

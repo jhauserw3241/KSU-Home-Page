@@ -1,4 +1,4 @@
-@import 'colors.css';
+@import 'shared.css';
 
 html {
 	margin: 0px;
@@ -15,12 +15,6 @@ body {
 
 div.container {
 	width: 100%;
-}
-
-logo h1 {
-	float: left;
-	margin: 0px;
-	color: var(--footerFontColor);
 }
 
 .img_floatright {
