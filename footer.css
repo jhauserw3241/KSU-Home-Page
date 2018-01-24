@@ -4,14 +4,11 @@ footer {
 	padding: 1em;
 	color: var(--footerFontColor);
 	background-color: var(--headerFooterBackColor);
-	clear: left;
 	text-align: center;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	position: relative;
-	margin: 8px;
+	margin-bottom: 8px;
 	height: var(--headerFooterHeight);
+	border-radius: 10px;
 }
 
 footerText {
@@ -21,6 +18,7 @@ footerText {
 
 footerIcons {
 	float: right;
+	padding: 2px;
 }
 
 logo h1 {
@@ -29,14 +27,8 @@ logo h1 {
 	color: var(--footerFontColor);
 }
 
-.img_floatright {
-	float: right;
-	margin: 0 0 5px 10px;
-	border-radius: 50%;
-}
-
 footerIcons img {
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 45px;
 	padding-right: 0.5em;
 }

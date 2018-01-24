@@ -6,11 +6,18 @@
 	height: var(--headerFooterHeight);
 	padding: 1em;
 	font-size: 1.25em;
+	border-radius: 10px;
 }
 
-/*.header p {
-	font-size: 2em;
-}*/
+.header-name {
+	display: inline-block;
+	font-size: 1.5em;
+	margin-top: 4px;
+}
+
+.navbar-right {
+    margin-right: -10px;
+}
 
 .nav-link {
 	color: var(--headerFontColor);
@@ -19,17 +26,3 @@
 .nav-link:hover {
 	background-color: #4D5051;
 }
-
-/*main-nav {
-	float: right;
-}*/
-
-/*button {
-	background-color: #4D5051;
-	color: var(--headerFontColor);
-	border: 0px;
-	padding: 0.75em;
-	margin-right: 10px;
-	margin-top: 0px;
-	border-radius: 30%;
-}*/
